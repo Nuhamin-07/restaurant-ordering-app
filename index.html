@@ -1,0 +1,59 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header id="header">
+            <h1 id="owner-name">Nuhamin's Dinner</h1>
+            <h3 id="restaurant-type">The best burger and pizza in town</h3>
+        </header>
+        <main id="main">
+            <section id="section"></section>
+            <div id="order-confirmation">
+                <p id="confirm"></p>
+            </div>
+        </main>
+            <div id="detail-order">
+                <section id="section-two">
+                    <h1 id="order-title">Your Order</h1>
+                    <div id="orderd-food"></div>
+                </section>
+                <hr/>
+                <div id="total-price">
+                    <h3>Total Price</h3>
+                    <p id="total-sum"></p>
+                </div>
+                <input id="complete-order-button" type="submit" value="Complete Order"/>
+            </div>
+                <form id="form">
+                    <h1>Enter card details</h1>
+                    <input 
+                        id="form-name"
+                        type="text" 
+                        placeholder="Enter Your Name"  
+                        aria-label="full name"
+                        required
+                    />
+                    <br/>
+                    <input 
+                        id="form-card"
+                        type="text" 
+                        placeholder="Enter Card Number"  
+                        aria-label="card number"
+                        required
+                    />
+                    <br/>
+                    <input
+                        id="form-cvv"
+                        type="text"
+                        placeholder="Enter CVV"
+                        aria-label="cvv"
+                        required
+                    />
+                    <br/>
+                    <input id="pay-button" type="submit" value="Pay">
+                </form>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
